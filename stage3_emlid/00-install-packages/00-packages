@@ -3,7 +3,9 @@ gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-bad
 git-core
+python-dev
 python-pip
-python-smbus
 python-spidev
+python-smbus
 wiringpi
+screen
