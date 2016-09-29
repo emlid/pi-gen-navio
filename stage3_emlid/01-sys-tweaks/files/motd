@@ -1,0 +1,26 @@
+                                                                
+               #    # ###### #       ####   ####  #    # ###### 
+               #    # #      #      #    # #    # ##  ## #      
+               #    # #####  #      #      #    # # ## # #####  
+               # ## # #      #      #      #    # #    # #      
+               ##  ## #      #      #    # #    # #    # #      
+               #    # ###### ######  ####   ####  #    # ###### 
+                                                                
+To enable ArduPilot on boot:
+STEP 1: 
+Choose your vehicle by editing this file with Nano editor (to save and exit press CTRL-X)
+	- sudo nano /lib/systemd/system/ardupilot.service
+STEP 2:
+Set your GCS IP 
+	- sudo nano /etc/default/ardupilot
+STEP 3:
+Reload configuration by issuing these commands
+	- sudo systemctl daemon-reload
+	- sudo systemctl enable ardupilot
+
+To disable ArduPilot on boot:
+- sudo systemctl disable ardupilot
+
+* Documentation: https://docs.emlid.com/
+
+To show this message once more type "navio-config --help"
