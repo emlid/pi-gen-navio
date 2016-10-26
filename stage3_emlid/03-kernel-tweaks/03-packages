@@ -2,5 +2,7 @@ dkms
 device-tree-compiler
 raspberrypi-bootloader-emlid
 raspberrypi-userspace-emlid
+raspberrypi-userspace-src-emlid
+raspberrypi-userspace-dev-emlid
 rpi2-kernel-emlid
 rpi2-headers-emlid
