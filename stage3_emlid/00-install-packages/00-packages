@@ -10,3 +10,5 @@ python-smbus
 wiringpi
 screen
 tmux
+hostapd
+dnsmasq
