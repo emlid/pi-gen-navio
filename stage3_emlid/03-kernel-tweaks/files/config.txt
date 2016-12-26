@@ -3,7 +3,7 @@ dtoverlay=pi3-disable-bt
 dtoverlay=navio-rgb
 
 dtparam=spi=on
-dtoverlay=spi0-2cs
+dtoverlay=spi0-4cs
 dtoverlay=spi1-1cs,cs0_pin=16,cs0_spidev=disabled
 dtoverlay=rcio
 dtoverlay=navio-rgb
