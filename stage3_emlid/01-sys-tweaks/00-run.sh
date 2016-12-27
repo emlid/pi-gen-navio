@@ -9,6 +9,6 @@ install -m 644 /dev/null ${ROOTFS_DIR}/ssh
 
 ln -sf /boot/wpa_supplicant.conf ${ROOTFS_DIR}/etc/wpa_supplicant/wpa_supplicant.conf
 
-on_chroot sh -e - <<EOF
+on_chroot << EOF
 systemctl disable hciuart
 EOF

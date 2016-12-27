@@ -4,9 +4,11 @@
 on_chroot ln -fs pkg-config /usr/bin/arm-linux-gnueabihf-pkg-config
 
 cp -r files ${ROOTFS_DIR}
-on_chroot dpkg -i files/*.deb
+on_chroot << EOF
+    dpkg -i files/*.deb
+EOF
 rm -rf ${ROOTFS_DIR}/files
 
-on_chroot bash - << EOF
+on_chroot << EOF
     pip install mavproxy
 EOF
