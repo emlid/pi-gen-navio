@@ -1,5 +1,7 @@
 #!/bin/bash
 
 cp -r files ${ROOTFS_DIR}
-on_chroot dpkg -i files/*.deb
+on_chroot << EOF
+dpkg -i files/*.deb
+EOF
 rm -rf ${ROOTFS_DIR}/files
