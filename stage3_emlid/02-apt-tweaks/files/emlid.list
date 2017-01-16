@@ -1,1 +1,1 @@
-deb http://files.emlid.com/debian jessie main
+deb http://files.emlid.com/navio2/debian jessie main non-free
