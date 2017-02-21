@@ -7,6 +7,10 @@ python-dev
 python-pip
 python-spidev
 python-smbus
+python3-dev
+python3-pip
+python3-spidev
+python3-smbus
 wiringpi
 screen
 tmux
