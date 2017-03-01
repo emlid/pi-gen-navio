@@ -1,0 +1,3 @@
+libxml2
+libxml2-dev #mavproxy dep
+libxslt1-dev
