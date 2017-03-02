@@ -3,7 +3,7 @@
 cp -f files/requirements3.txt ${ROOTFS_DIR}/home/pi
 cp -f files/requirements2.txt ${ROOTFS_DIR}/home/pi
 
-curl -H "Authorization: token $AUTH_TOKEN" -L https://api.github.com/repos/emlid/emlid-autopilot-utils/tarball/v0.1 > files/emlid.tar.gz
+curl -H "Authorization: token $AUTH_TOKEN" -L https://api.github.com/repos/emlid/emlid-autopilot-utils/tarball/v0.2 > files/emlid.tar.gz
 tar -xvf files/emlid.tar.gz -C ${ROOTFS_DIR}/home/pi/
 
 on_chroot << EOF
