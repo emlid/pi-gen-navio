@@ -6,7 +6,7 @@ mkdir -p ${ROOTFS_DIR}/files
 cp -r files/*.deb ${ROOTFS_DIR}/files
 
 on_chroot << EOF
-apt-get purge raspberrypi-bootloader -y
+apt-get purge raspberrypi-bootloader raspberrypi-kernel -y
 apt-get autoremove -y
 PACKAGE_NAME=$(debconf-get-selections | grep 'linux-image-' | cut -f1 | head -1)
 PACKAGE_VERSION=$(echo $PACKAGE | cut -d- -f3-)
