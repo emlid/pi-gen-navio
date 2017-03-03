@@ -2,6 +2,6 @@
 
 on_chroot << EOF
 apt-get update
-apt-get -y dist-upgrade
+DEBIAN_FRONTEND=noninteractive apt-get -yq dist-upgrade
 apt-get clean
 EOF
