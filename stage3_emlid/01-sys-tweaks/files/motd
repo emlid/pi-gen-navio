@@ -23,4 +23,4 @@ To disable ArduPilot on boot:
 
 * Documentation: https://docs.emlid.com/
 
-To show this message once more type "navio-config --help"
+To show this message once more type "emlid ardupilot help"
