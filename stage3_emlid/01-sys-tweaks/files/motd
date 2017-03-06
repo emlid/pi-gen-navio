@@ -21,6 +21,12 @@ Reload configuration by issuing these commands
 To disable ArduPilot on boot:
 - sudo systemctl disable ardupilot
 
-* Documentation: https://docs.emlid.com/
+ ____    ___    _   _   ___  _____   __  __  ___  ____  ____  
+|  _ \  / _ \  | \ | | / _ \|_   _| |  \/  ||_ _|/ ___|/ ___| 
+| | | || | | | |  \| || | | | | |   | |\/| | | | \___ \\___ \ 
+| |_| || |_| | | |\  || |_| | | |   | |  | | | |  ___) |___) |
+|____/  \___/  |_| \_| \___/  |_|   |_|  |_||___||____/|____/ 
+                                                              
+To show this message once more type "emlitool ardupilot"
 
-To show this message once more type "emlid ardupilot help"
+* Documentation: https://docs.emlid.com/
