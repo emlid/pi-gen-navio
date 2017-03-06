@@ -9,9 +9,6 @@ tar -xvf files/emlid.tar.gz -C ${ROOTFS_DIR}/home/pi/
 on_chroot << EOF
 pip3 install -r /home/pi/requirements3.txt
 pip2 install -r /home/pi/requirements2.txt
-pushd /home/pi/emlid*
-pip3 install .
-popd
 EOF
 
 rm -rf ${ROOTFS_DIR}/home/pi/requirements*.txt
