@@ -8,18 +8,30 @@
                                                                 
 To enable ArduPilot on boot:
 STEP 1: 
-Choose your vehicle by editing this file with Nano editor (to save and exit press CTRL-X)
-	- sudo nano /lib/systemd/system/ardupilot.service
+Choose your vehicle, board and version using update-alternatives
+	- sudo update-alternatives --config arducopter #for copter
+	- sudo update-alternatives --config arduplane #for plane
+	- sudo update-alternatives --config ardurover #for rover
+
 STEP 2:
 Set your GCS IP 
-	- sudo nano /etc/default/ardupilot
+	- sudo nano /etc/default/arducopter #for copter
+	- sudo nano /etc/default/arduplane #for plane
+	- sudo nano /etc/default/ardurover #for rover
 STEP 3:
 Reload configuration by issuing these commands
 	- sudo systemctl daemon-reload
-	- sudo systemctl enable ardupilot
+
+STEP 4:
+Enable service on boot:
+	- sudo systemctl enable arducopter #for copter
+	- sudo systemctl enable arduplane #for plane
+	- sudo systemctl enable ardurover #for rover
 
 To disable ArduPilot on boot:
-- sudo systemctl disable ardupilot
+	- sudo systemctl disable arducopter #for copter
+	- sudo systemctl disable arduplane #for plane
+	- sudo systemctl disable ardurover #for rover
 
  ____    ___    _   _   ___  _____   __  __  ___  ____  ____  
 |  _ \  / _ \  | \ | | / _ \|_   _| |  \/  ||_ _|/ ___|/ ___| 
