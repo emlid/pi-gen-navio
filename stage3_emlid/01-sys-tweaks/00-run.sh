@@ -10,5 +10,6 @@ install -m 644 files/interfaces ${ROOTFS_DIR}/etc/network
 ln -sf /boot/wpa_supplicant.conf ${ROOTFS_DIR}/etc/wpa_supplicant/wpa_supplicant.conf
 
 on_chroot << EOF
+rm /etc/motd
 systemctl disable hciuart
 EOF
