@@ -18,3 +18,5 @@ hostapd
 dnsmasq
 vim
 zsh
+i2c-tools
+can-utils
