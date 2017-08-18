@@ -1,4 +1,4 @@
-ros-indigo-ros-base
-ros-indigo-mavros
+ros-kinetic-ros-base
+ros-kinetic-mavros
 python-rosdep
 python-rosinstall
