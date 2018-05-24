@@ -12,4 +12,5 @@ ln -sf /boot/wpa_supplicant.conf ${ROOTFS_DIR}/etc/wpa_supplicant/wpa_supplicant
 on_chroot << EOF
 rm /etc/motd
 systemctl disable hciuart
+dpkg-divert --add --local /etc/wpa_supplicant/wpa_supplicant.conf
 EOF
