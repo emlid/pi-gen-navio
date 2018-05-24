@@ -1,6 +1,5 @@
 [all] 
 dtoverlay=pi3-disable-bt
-dtoverlay=navio-rgb
 
 dtparam=spi=on
 dtoverlay=spi0-4cs
