@@ -19,6 +19,8 @@ dosfstools bsdtar libcap2-bin grep rsync xz-utils
 The file `depends` contains a list of tools needed.  The format of this
 package is `<tool>[:<debian-package>]`.
 
+Before building make sure that `binfmt_misc` module is loaded on the host machine
+(outside the docker container).
 
 ## Config
 
