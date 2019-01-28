@@ -8,5 +8,5 @@ on_chroot apt-key add - < files/emlid.gpg.key
 on_chroot apt-key add - < files/emlid-builder.gpg.key
 on_chroot << EOF
 apt-get update
-apt-get dist-upgrade -y
+apt-get dist-upgrade -y --allow-downgrades
 EOF
