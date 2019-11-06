@@ -1,0 +1,19 @@
+[all] 
+dtoverlay=pi3-disable-bt
+
+dtparam=spi=on
+dtoverlay=spi0-4cs
+dtoverlay=spi1-1cs,cs0_pin=16,cs0_spidev=disabled
+dtoverlay=rcio
+dtoverlay=navio-rgb
+
+dtparam=i2c1=on
+dtparam=i2c1_baudrate=1000000
+
+# Additional overlays and parameters are documented /boot/overlays/README
+
+# Enable audio (loads snd_bcm2835)
+#dtparam=audio=on
+
+start_x=1
+gpu_mem=128

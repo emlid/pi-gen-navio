@@ -1,0 +1,5 @@
+flex
+bison
+libssl-dev
+raspberrypi-kernel
+raspberrypi-kernel-headers
