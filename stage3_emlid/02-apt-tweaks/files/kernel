@@ -1,0 +1,7 @@
+Package: raspberrypi-kernel
+Pin: origin archive.raspberrypi.org
+Pin-Priority: -10
+
+Package: raspberrypi-kernel-headers
+Pin: origin archive.raspberrypi.org
+Pin-Priority: -10
