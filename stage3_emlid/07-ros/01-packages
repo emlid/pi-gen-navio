@@ -1,4 +1,6 @@
-ros-kinetic-ros-base
-ros-kinetic-mavros
 python-rosdep
+python-rosinstall-generator
+python-wstool
 python-rosinstall
+build-essential
+cmake
