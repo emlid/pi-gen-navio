@@ -1,4 +1,4 @@
-ros-kinetic-ros-base
-ros-kinetic-mavros
+ros-noetic-ros-base
+ros-noetic-mavros
 python-rosdep
 python-rosinstall
