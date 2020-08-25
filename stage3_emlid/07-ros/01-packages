@@ -1,4 +1,5 @@
-ros-kinetic-ros-base
-ros-kinetic-mavros
 python-rosdep
+python-rosinstall-generator
+python-catkin-tools
+python-wstool
 python-rosinstall
