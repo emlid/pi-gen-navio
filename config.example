@@ -8,9 +8,9 @@ STAGE_LIST="stage0 stage1 stage2 stage3_emlid"
 
 # Network settings
 TARGET_HOSTNAME="navio-uav"
-WPA_ESSID=""
-WPA_PASSWORD=""
-WPA_COUNTRY=""
+WPA_ESSID="EML33T2"
+WPA_PASSWORD="emrooftop"
+WPA_COUNTRY="gb"
 ENABLE_SSH=1
 
 # User settings
