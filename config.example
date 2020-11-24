@@ -1,0 +1,24 @@
+# General settings
+IMG_NAME="Raspbian_Navio"
+RELEASE="buster"
+
+# Build settings
+USE_QEMU=0
+STAGE_LIST="stage0 stage1 stage2 stage3_emlid"
+
+# Network settings
+TARGET_HOSTNAME="navio-uav"
+WPA_ESSID="EML33T2"
+WPA_PASSWORD="emrooftop"
+WPA_COUNTRY="gb"
+ENABLE_SSH=1
+
+# User settings
+FIRST_USER_NAME="navio"
+FIRST_USER_PASS="aVerySecurePasswd"
+
+# Localization settings
+LOCALE_DEFAULT="en_GB.UTF-8"
+TIMEZONE_DEFAULT="Europe/London"
+KEYBOARD_KEYMAP="en"
+KEYBOARD_LAYOUT="English (UK)"
