@@ -1,5 +1,5 @@
-python-rosdep
-python-rosinstall-generator
-python-catkin-tools
-python-wstool
-python-rosinstall
+python3-rosdep
+python3-rosinstall-generator
+python3-catkin-tools
+python3-wstool
+python3-rosinstall
